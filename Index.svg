@@ -4,7 +4,7 @@
     <iframe xmlns="http://www.w3.org/1999/xhtml" id="f" title="Nebula" allow="fullscreen; autoplay; display-capture; clipboard-write" allowfullscreen="true" style="border:0;display:block;width:100%;height:100%;background:#05040a;"></iframe>
   </foreignObject>
   <script type="text/javascript"><![CDATA[
-    var SRC = "https://cdn.jsdelivr.net/gh/Lego611091/Nebula-storage@main/app.html";
+    var SRC = "https://cdn.jsdelivr.net/gh/lego61109/Nebula-storage@main/app.html";
     fetch(SRC, { cache: "no-cache" })
       .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.text(); })
       .then(function (html) { document.getElementById("f").srcdoc = html; })
